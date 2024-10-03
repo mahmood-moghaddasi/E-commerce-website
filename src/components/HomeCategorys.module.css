@@ -1,0 +1,27 @@
+.container {
+  padding: 57px 126px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 32px;
+  color: #333333;
+}
+.container p {
+  font-size: 20px;
+  color: #666666;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 62.3px;
+}
+.card img {
+  width: 381px;
+  height: 480px;
+}
+.card p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+}
