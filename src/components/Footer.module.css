@@ -1,0 +1,59 @@
+.footer {
+  padding: 48px 100px 38px;
+  background-color: azure;
+  border-top: 1px #c5c5c5 solid;
+}
+.top {
+  display: flex;
+  gap: 136px;
+}
+.left {
+}
+.left h1 {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.left p {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.right {
+  font-size: 16px;
+}
+.right table {
+  width: 100%;
+  justify-content: space-between;
+}
+.right tr th {
+  padding-bottom: 55px;
+}
+.right tr th,
+.right tr td {
+  width: 300px;
+  padding-right: 144px;
+  padding-bottom: 45px;
+}
+.right tr:first-child th {
+  text-align: left;
+  color: #9f9f9f;
+  font-weight: bold;
+}
+.email {
+  display: flex;
+  gap: 11px;
+}
+.email input {
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+}
+.email button {
+  background-color: white;
+  border: none;
+  border-bottom: 1px black solid;
+  cursor: pointer;
+}
+.bottom p {
+  font-size: 16px;
+  margin-top: 35px;
+}
