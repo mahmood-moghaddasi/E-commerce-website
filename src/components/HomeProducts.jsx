@@ -1,4 +1,5 @@
 import styles from "./HomeProducts.module.css";
+import ProductCard from "./ProductCard";
 
 function HomeProducts() {
   const products = [
@@ -56,14 +57,7 @@ function HomeProducts() {
       <h1>Our Products</h1>
       <div className={styles.cards}>
         {products.map((product, index) => (
-          <div className={styles.card} key={index}>
-            <img src={product.image} alt={product.title} />
-            <div className={styles.detailes}>
-              <h3>{product.title}</h3>
-              <p>{product.description}</p>
-              <span>Rp {product.price}</span>
-            </div>
-          </div>
+          <ProductCard key={index} product={product} />
         ))}
       </div>
       <button>Show More</button>

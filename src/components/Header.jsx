@@ -4,6 +4,7 @@ import { FaReact, FaRegHeart } from "react-icons/fa";
 import { MdOutlinePerson } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <header className={styles.header}>
@@ -12,10 +13,18 @@ function Header() {
         <span>Furniro</span>
       </div>
       <div className={styles.pages}>
-        <span>Home</span>
-        <span>Shop</span>
-        <span>About</span>
-        <span>Contact</span>
+        <NavLink to="shop">
+          <span>Home</span>
+        </NavLink>
+        <NavLink>
+          <span>Shop</span>
+        </NavLink>
+        <NavLink>
+          <span>About</span>
+        </NavLink>
+        <NavLink>
+          <span>Contact</span>
+        </NavLink>
       </div>
       <div className={styles.tools}>
         <MdOutlinePerson />

@@ -1,0 +1,20 @@
+.container {
+  padding-top: 100px;
+}
+.container div {
+  background: url("../../../public/images/shopPage/shop-banner.png");
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.container span {
+  font-weight: bold;
+  margin-right: 2px;
+}
+.container .arrow {
+  position: relative;
+  top: 4px;
+}
